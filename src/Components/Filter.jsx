@@ -1,9 +1,11 @@
 import React from "react";
 
-const Filter = () => {
+const Filter = ({ onFilter }) => {
   return (
     <div>
-      <h3>Filter Component</h3>
+      <button className="btn btn-success" onClick={onFilter}>
+        Filter
+      </button>
     </div>
   );
 };

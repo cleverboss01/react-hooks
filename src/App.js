@@ -12,7 +12,7 @@ function App() {
             padding: "30px",
           }}
         >
-          Daniel's Netflix
+          DANIEL'S NETFLIX
         </h1>
         <MovieList />
       </header>
